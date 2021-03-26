@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="RDVessentiel.be">
+        <meta name="author" content="Guillaume Derval">
+        <title>RDVessentiel.be</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <style type="text/css">
+            #name {
+                font-style: italic;
+            }
+
+            noscript {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <noscript><h1>Veuillez activer javascript pour prendre rendez-vous.</h1></noscript>
+            <div class="container">
+                <div class="py-5 text-center">
+                    <h2>Prendre rendez-vous à <span id="name">(chargement)</span> pour entrer immédiatement</h2>
+                </div>
+                <h4>Appuyez sur le bouton pour prendre rendez-vous dès:</h4>
+                <ul>
+                    <li>qu'il n'y a personne qui attend depuis plus longtemps que vous</li>
+                    <li>que quelqu'un sort du magasin, qu'il n'est visiblement pas rempli, ou qu'on vous fait signe de prendre rendez-vous.</li>
+                </ul>
+                <div class="d-grid">
+                    <button onclick="go();" class="btn btn-primary btn-lg">Prendre rendez-vous pour rentrer maintenant</button>
+                </div>
+                <p>Ceci n'est valable que pendant que le magasin n'est ouvert...</p>
+            </div>
+        </main>
+        <script type="text/javascript">
+            let name = decodeURIComponent(document.location.search.substring(1).replace(/\+/g, '%20'));
+            document.getElementById("name").innerText = name;
+            function go() {
+                document.location = "/s.html?n="+encodeURIComponent(name)+"&t="+Date.now();
+            }
+        </script>
+    </body>
+</html>
