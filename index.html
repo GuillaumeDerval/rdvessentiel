@@ -28,9 +28,9 @@
     <main>
         <div class="py-5 text-center">
             <h2>RDVessentiel.be - parce que nos commerces sont tous essentiels.</h2>
-            <p class="lead">Un système simple pour permettre à vos client de prendre rendez-vous sur le pas de la
+            <p class="lead">Un système simple pour permettre à vos clients de prendre rendez-vous sur le pas de la
                 porte.</p>
-            <p class="lead">Créez un QR code, qui, lorsqu'il est scanné, donne une tranche horaire de 30 minutes à vos clients, en appliquant, au pied de la lettre, l'arrêté ministériel du 26/03/21.
+            <p class="lead">Créez un QR code, qui, lorsqu'il est scanné, donne une tranche horaire de 30 minutes à vos clients, en appliquant au pied de la lettre l'arrêté ministériel du 26/03/21.
                 L'application ne stocke aucune donnée, ne trace ni vous, ni vos clients, et sera toujours gratuite.</p>
             <p class="lead"><a href="/r.html?Mon petit commerce">Cliquez ici pour une démo de l'interface client.</a></p>
         </div>
@@ -66,7 +66,7 @@
 
     <script type="text/javascript">
         function go() {
-            window.open("/s.html?n="+encodeURIComponent(document.getElementById("name").value)+"&t="+Date.now());
+            window.open("/r.html?"+encodeURIComponent(document.getElementById("name").value));
         }
     </script>
 </div>
