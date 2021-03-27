@@ -13,6 +13,7 @@ def count():
     conn.commit()
     cur.close()
     cur = conn.cursor()
-    c = cur.execute("SELECT c FROM count").fetchone()
+    cur.execute("SELECT c FROM count")
+    c = cur.fetchone()
     cur.close()
     return {'c': c}
