@@ -11,6 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
@@ -35,7 +37,7 @@
 <div class="container">
     <main>
         <div class="py-5 text-center">
-            <h2>RDVessentiel.be - parce que nos commerçants sont tous essentiels.</h2>
+            <h1>RDVessentiel.be - parce que nos commerçants sont tous essentiels.</h1>
             <p class="lead">Un système simple pour permettre à vos clients de prendre rendez-vous sur le pas de la
                 porte.</p>
             <p class="lead">Créez un QR code, qui, lorsqu'il est scanné, donne une tranche horaire de 30 minutes à vos clients, en appliquant au pied de la lettre l'arrêté ministériel du 26/03/21.
@@ -45,39 +47,54 @@
 
         <div class="row g-5">
             <div class="col-s-12">
+                <h2>Installer en 3 étapes</h2>
                 <form target="_blank" action="qr.html" method="get">
-                    <h4 class="mb-3"><label for="name">1. Indiquez le nom de votre commerce</label></h4>
-                    <div class="row g-3">
-                        <div class="col-12">
-                            <div class="input-group has-validation">
-                                <span class="input-group-text"><i class="bi bi-arrow-right-short"></i></span>
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Nom de votre commerce" value="Mon petit commerce">
-
+                    <ol class="steps">
+                        <li>
+                            <div>
+                                <label for="name">1. Indiquez le nom de votre commerce</label>
                             </div>
-                            <p>Si possible, évitez les caractères spéciaux (?&@ et autres).</p>
-                        </div>
-                    </div>
-                    <h4 class="mb-3">2. Cliquez sur le lien ci-dessous pour générer votre QR-code, imprimez-le et collez-le sur votre vitrine.</h4>
-                    <div class="row g-3">
-                        <button class="btn btn-primary" type="submit">Générer le QR-Code</button>
-                        <button class="btn btn-secondary" type="button" onclick="go(); return false;">Démo de l'interface client</button>
-                    </div>
+                            <div>
+                                <div class="col-12">
+                                    <div class="input-group has-validation">
+                                        <span class="input-group-text"><i class="bi bi-arrow-right-short"></i></span>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Nom de votre commerce" value="Mon petit commerce">
+                                    </div>
+                                    <p>Si possible, évitez les caractères spéciaux (?&@ et autres).</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                2. Générez votre QR-code, imprimez-le, collez-le sur votre vitrine.
+                            </div>
+                            <div class="buttons text-center">
+                                <button class="btn btn-lg btn-primary" type="submit">Générer le QR-Code</button>
+                                <button class="btn btn-lg btn-secondary" type="button" onclick="go(); return false;">Démo de l'interface
+                                    client</button>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                3. Profitez de votre magasin ouvert, et faites passer le message!
+                            </div>
+                       </li>
+                    </ol>
                 </form>
-                <h4 class="mb-3">3. Profitez de votre magasin ouvert, et faites passer le message!</h4>
             </div>
         </div>
-        <hr>
+
         <div class="row g-5">
             <div class="col-s-12">
-                <h3>Foire aux questions</h3>
+                <h2>Foire aux questions</h2>
                 <div class="accordion" id="faq">
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading-1">
+                        <h3 class="accordion-header" id="heading-1">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1"
                                 aria-expanded="true" aria-controls="collapse-1">
                                 Mes clients n'ont pas de smartphone ou ne savent pas scanner le QR code
                             </button>
-                        </h2>
+                        </h3>
                         <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
@@ -96,12 +113,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading-2">
+                        <h3 class="accordion-header" id="heading-2">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2"
                                 aria-expanded="false" aria-controls="collapse-2">
                                 J'ai un site web et je veux rediriger vers cette interface de réservation
                             </button>
-                        </h2>
+                        </h3>
                         <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
@@ -112,12 +129,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading-3">
+                        <h3 class="accordion-header" id="heading-3">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3"
                                 aria-expanded="false" aria-controls="collapse-3">
                                 Pourquoi ce site?
                             </button>
-                        </h2>
+                        </h3>
                         <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
@@ -132,12 +149,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading-4">
+                        <h3 class="accordion-header" id="heading-4">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4"
                                 aria-expanded="false" aria-controls="collapse-4">
                                 C'est légal?
                             </button>
-                        </h2>
+                        </h3>
                         <div id="collapse-4" class="accordion-collapse collapse" aria-labelledby="heading-4"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
@@ -150,12 +167,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading-5">
+                        <h3 class="accordion-header" id="heading-5">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5"
                                 aria-expanded="false" aria-controls="collapse-5">
                                 Qui êtes vous?
                             </button>
-                        </h2>
+                        </h3>
                         <div id="collapse-5" class="accordion-collapse collapse" aria-labelledby="heading-5"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
@@ -171,12 +188,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading-6">
+                        <h3 class="accordion-header" id="heading-6">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6"
                                 aria-expanded="false" aria-controls="collapse-6">
                                 Faire attendre les personnes à l'extérieur ne va pas provoquer des contaminations?
                             </button>
-                        </h2>
+                        </h3>
                         <div id="collapse-6" class="accordion-collapse collapse" aria-labelledby="heading-6"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
@@ -187,12 +204,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading-7">
+                        <h3 class="accordion-header" id="heading-7">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7"
                                 aria-expanded="false" aria-controls="collapse-7">
                                 J'ai des idées pour améliorer le site! Je veux voir le code source!
                             </button>
-                        </h2>
+                        </h3>
                         <div id="collapse-7" class="accordion-collapse collapse" aria-labelledby="heading-7"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
@@ -205,12 +222,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading-8">
+                        <h3 class="accordion-header" id="heading-8">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-8"
                                 aria-expanded="false" aria-controls="collapse-8">
                                 Vie privée
                             </button>
-                        </h2>
+                        </h3>
                         <div id="collapse-8" class="accordion-collapse collapse" aria-labelledby="heading-8"
                             data-bs-parent="#faq">
                             <div class="accordion-body">

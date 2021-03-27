@@ -1,0 +1,23 @@
+h2 {
+  text-align: center;
+  margin: 30px 0;
+}
+form h4 {
+  margin: 10px 0;
+}
+ol.steps {
+  list-style: none;
+  padding: 0;
+}
+ol.steps > li > div:first-child {
+  font-size: 130%;
+}
+ol.steps > li > div:nth-child(2) {
+  padding: 20px;
+}
+ol.steps > li > div.buttons {
+  padding: 30px 20px;
+}
+ol.steps > li > div.buttons > .btn {
+  margin: 10px;
+}
