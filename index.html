@@ -11,14 +11,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css">
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:creator" content="@dervalguillaume" />
     <meta property="og:url" content="https://www.rdvessentiel.be" />
     <meta property="og:title" content="RDVessentiel" />
     <meta property="og:description" content="Un système de réservation simplissime, car tout nos commerçant sont essentiels." />
-    
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="/img/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -33,7 +37,7 @@
 <div class="container">
     <main>
         <div class="py-5 text-center">
-            <h2>RDVessentiel.be - parce que nos commerçants sont tous essentiels.</h2>
+            <h1>RDVessentiel.be - parce que nos commerçants sont tous essentiels.</h1>
             <p class="lead">Un système simple pour permettre à vos clients de prendre rendez-vous sur le pas de la
                 porte.</p>
             <p class="lead">Créez un QR code, qui, lorsqu'il est scanné, donne une tranche horaire de 30 minutes à vos clients, en appliquant au pied de la lettre l'arrêté ministériel du 26/03/21.
@@ -43,75 +47,207 @@
 
         <div class="row g-5">
             <div class="col-s-12">
+                <h2>Installer en 3 étapes</h2>
                 <form target="_blank" action="qr.html" method="get">
-                    <h4 class="mb-3"><label for="name">1. Indiquez le nom de votre commerce</label></h4>
-                    <div class="row g-3">
-                        <div class="col-12">
-                            <div class="input-group has-validation">
-                                <span class="input-group-text"><i class="bi bi-arrow-right-short"></i></span>
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Nom de votre commerce" value="Mon petit commerce">
-
+                    <ol class="steps">
+                        <li>
+                            <div>
+                                <label for="name">1. Indiquez le nom de votre commerce</label>
                             </div>
-                            <p>Si possible, évitez les caractères spéciaux (?&@ et autres).</p>
-                        </div>
-                    </div>
-                    <h4 class="mb-3">2. Cliquez sur le lien ci-dessous pour générer votre QR-code, imprimez-le et collez-le sur votre vitrine.</h4>
-                    <div class="row g-3">
-                        <button class="btn btn-primary" type="submit">Générer le QR-Code</button>
-                        <button class="btn btn-secondary" type="button" onclick="go(); return false;">Démo de l'interface client</button>
-                    </div>
+                            <div>
+                                <div class="col-12">
+                                    <div class="input-group has-validation">
+                                        <span class="input-group-text"><i class="bi bi-arrow-right-short"></i></span>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Nom de votre commerce" autofocus required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <p class="hint">Si possible, évitez les caractères spéciaux (?&@ et autres).</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                2. Générez votre QR-code, imprimez-le, collez-le sur votre vitrine.
+                            </div>
+                            <div class="buttons text-center">
+                                <button class="btn btn-lg btn-primary" type="submit">Générer le QR-Code</button>
+                                <button class="btn btn-lg btn-secondary" type="button" onclick="go(); return false;">Démo de l'interface
+                                    client</button>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                3. Profitez de votre magasin ouvert, et faites passer le message!
+                            </div>
+                       </li>
+                    </ol>
                 </form>
-                <h4 class="mb-3">3. Profitez de votre magasin ouvert, et faites passer le message!</h4>
             </div>
         </div>
-        <hr>
+
         <div class="row g-5">
             <div class="col-s-12">
-                <h3>Foire aux questions</h3>
-                <h5>Et si mes clients n'ont pas de smartphone ou ne savent pas scanner un QR code?</h5>
-                <p>
-                    Pour ces clients là, vous devez simplement simplement leur fournir une preuve de rendez-vous, contenant
-                    une plage de début et de fin, sur un format présentable. Dites-leur de téléphoner ou de
-                    vous appeler sur le pas de la porte, et donnez leur un petit ticket!
-                </p>
-                <p>
-                    Un champ pour indiquer votre numéro de téléphone est présent dans le document avec le QR-code.
-                </p>
-                <p>
-                    Pour tout les autres clients, ce site vous permet de ne pas avoir à penser à fournir des justificatifs!
-                </p>
-                <h5>J'ai un site web et je veux rediriger vers cette interface de réservation</h5>
-                <p>Un lien est présent sur le document contenant le QR-code. Vous pouvez utiliser ce lien sur votre site.</p>
-                <h5>Pourquoi ce site?</h5>
-                <p>
-                    Cette application existe pour fournir un petit support logistique, gratuitement, à nos petits commerces
-                    et commerçants qui en ont bien besoin. Nos commerçants sont tous essentiels.
-                </p>
-                <p>Elle existe également pour montrer l'absurdité de la mesure gouvernementale de prise de rendez-vous.</p>
-                <h5>C'est légal?</h5>
-                <p>
-                    L'article adéquat de l'arrêté ministériel du 26/03/21 est respecté au pied de
-                    la lettre: tout client doit disposer d'un rendez-vous, avec une preuve de la tranche horaire
-                    qui lui est attribuée. Cela dit, je ne suis pas avocat, et je me dédouane de toute responsabilité.
-                </p>
-                <h5>Qui êtes-vous?</h5>
-                <p>
-                    Un citoyen concerné, accessoirement ingénieur informaticien, orienté mathématiques appliquées.
-                    Impliqué dans <a href="https://www.covidata.be">Covidata.be</a> et <a href="https://www.covidrationnel.be">covidrationnel.be</a> (notez bien que ce site est un initiative personnelle!)
-                    <a href="https://twitter.com/dervalguillaume">Je suis sur twitter (@dervalguillaume) si vous avez envie de discuter.</a>
-                </p>
-                <h5>Faire attendre les personnes à l'extérieur ne va pas provoquer des contaminations?</h5>
-                <p>Non, probablement pas. Plus d'infos sur <a href="https://www.covidrationnel.be">covidrationnel.be</a>.</p>
-                <h5>J'ai des idées pour améliorer le site! Je veux voir le code source!</h5>
-                <p>
-                    Vous trouverez mon mail facilement sur internet.
-                    <a href="https://twitter.com/dervalguillaume">Mes DMs sont ouverts sur Twitter.</a>
-                    <a href="https://github.com/GuillaumeDerval/rdvessentiel">Le code source est sur GitHub.</a>
-                </p>
-                <h5>Vie privée</h5>
-                <p>Ce site ne stocke aucune information à propos des visiteurs, qu'ils soient commerçants ou pas. Jamais. Promis.</p>
-                <p>Néanmoins, pour avoir une idée de l'utilisation, je me permets de faire un +1 sur un compteur (global au site) à chaque visite d'une page.</p>
-                <p>Il est impossible de lister les commerces qui utilisent le site, par exemple, ni le nombre de clients qu'ils possèdent, etc.</p>
+                <h2>Foire aux questions</h2>
+                <div class="accordion" id="faq">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="heading-1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1"
+                                aria-expanded="true" aria-controls="collapse-1">
+                                Mes clients n'ont pas de smartphone ou ne savent pas scanner le QR code
+                            </button>
+                        </h3>
+                        <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
+                            data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                <p>
+                                    Pour ces clients là, vous devez simplement simplement leur fournir une preuve de rendez-vous, contenant
+                                    une plage de début et de fin, sur un format présentable. Dites-leur de téléphoner ou de
+                                    vous appeler sur le pas de la porte, et donnez leur un petit ticket!
+                                </p>
+                                <p>
+                                    Un champ pour indiquer votre numéro de téléphone est présent dans le document avec le QR-code.
+                                </p>
+                                <p>
+                                    Pour tout les autres clients, ce site vous permet de ne pas avoir à penser à fournir des justificatifs!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="heading-2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2"
+                                aria-expanded="false" aria-controls="collapse-2">
+                                J'ai un site web et je veux rediriger vers cette interface de réservation
+                            </button>
+                        </h3>
+                        <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                            data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                <p>
+                                    Un lien est présent sur le document contenant le QR-code. Vous pouvez utiliser ce lien sur votre site.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="heading-3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3"
+                                aria-expanded="false" aria-controls="collapse-3">
+                                Pourquoi ce site?
+                            </button>
+                        </h3>
+                        <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
+                            data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                <p>
+                                    Cette application existe pour fournir un petit support logistique, gratuitement, à nos petits commerces
+                                    et commerçants qui en ont bien besoin. Nos commerçants sont tous essentiels.
+                                </p>
+                                <p>
+                                    Elle existe également pour montrer l'absurdité de la mesure gouvernementale de prise de rendez-vous.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="heading-4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4"
+                                aria-expanded="false" aria-controls="collapse-4">
+                                C'est légal?
+                            </button>
+                        </h3>
+                        <div id="collapse-4" class="accordion-collapse collapse" aria-labelledby="heading-4"
+                            data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                <p>
+                                    L'article adéquat de l'arrêté ministériel du 26/03/21 est respecté au pied de
+                                    la lettre: tout client doit disposer d'un rendez-vous, avec une preuve de la tranche horaire
+                                    qui lui est attribuée. Cela dit, je ne suis pas avocat, et je me dédouane de toute responsabilité.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="heading-5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5"
+                                aria-expanded="false" aria-controls="collapse-5">
+                                Qui êtes vous?
+                            </button>
+                        </h3>
+                        <div id="collapse-5" class="accordion-collapse collapse" aria-labelledby="heading-5"
+                            data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                <p>
+                                    Un citoyen concerné, accessoirement ingénieur informaticien, orienté mathématiques appliquées.
+                                    Impliqué dans <a href="https://www.covidata.be">Covidata.be</a> et <a
+                                        href="https://www.covidrationnel.be">covidrationnel.be</a> (notez bien que ce site est un initiative
+                                    personnelle!)
+                                    <a href="https://twitter.com/dervalguillaume">Je suis sur twitter (@dervalguillaume) si vous avez envie
+                                        de discuter.</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="heading-6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6"
+                                aria-expanded="false" aria-controls="collapse-6">
+                                Faire attendre les personnes à l'extérieur ne va pas provoquer des contaminations?
+                            </button>
+                        </h3>
+                        <div id="collapse-6" class="accordion-collapse collapse" aria-labelledby="heading-6"
+                            data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                <p>
+                                    Non, probablement pas. Plus d'infos sur <a href="https://www.covidrationnel.be">covidrationnel.be</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="heading-7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7"
+                                aria-expanded="false" aria-controls="collapse-7">
+                                J'ai des idées pour améliorer le site! Je veux voir le code source!
+                            </button>
+                        </h3>
+                        <div id="collapse-7" class="accordion-collapse collapse" aria-labelledby="heading-7"
+                            data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                <p>
+                                    Vous trouverez mon mail facilement sur internet.
+                                    <a href="https://twitter.com/dervalguillaume">Mes DMs sont ouverts sur Twitter.</a>
+                                    <a href="https://github.com/GuillaumeDerval/rdvessentiel">Le code source est sur GitHub.</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="heading-8">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-8"
+                                aria-expanded="false" aria-controls="collapse-8">
+                                Vie privée
+                            </button>
+                        </h3>
+                        <div id="collapse-8" class="accordion-collapse collapse" aria-labelledby="heading-8"
+                            data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                <p>
+                                    Ce site ne stocke aucune information à propos des visiteurs, qu'ils soient commerçants ou pas. Jamais. Promis.
+                                </p>
+                                <p>
+                                    Néanmoins, pour avoir une idée de l'utilisation, je me permets de faire un +1 sur un compteur (global au site) à
+                                    chaque visite d'une page.
+                                </p>
+                                <p>
+                                    Il est impossible de lister les commerces qui utilisent le site, par exemple, ni le nombre de clients qu'ils
+                                    possèdent, etc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
