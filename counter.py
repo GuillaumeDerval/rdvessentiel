@@ -1,10 +1,12 @@
 from flask import Flask
 import os
 import psycopg2
+from flask_cors import CORS
 
 DATABASE_URL = os.environ['DATABASE_URL']
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def count():
