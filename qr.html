@@ -34,7 +34,9 @@
             <footer class="my-5 pt-5 text-muted text-center text-small">Powered by rdvessentiel.be</footer>
 
             <script type="text/javascript">
-                let url = "rdvessentiel.be/r.html?n=Mon+Petit+Commerce"
+                let urlData = new URL(window.location.href);
+                let name = urlData.searchParams.get("name");
+                let url = "rdvessentiel.be/r.html?"+encodeURIComponent(name);
                 const qrCode = new QRCodeStyling({
                     width: 300,
                     height: 300,
