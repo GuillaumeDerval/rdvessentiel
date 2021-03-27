@@ -41,7 +41,7 @@
             </div>
         </main>
         <script type="text/javascript">
-            let name = decodeURIComponent(document.location.search.substring(1).replaceAll(/\+/g, '%20'));
+            let name = decodeURIComponent(document.location.search.substring(1).replace(/\+/g, '%20'));
             document.getElementById("name").innerText = name;
             function go() {
                 document.location = "/s.html?n="+encodeURIComponent(name)+"&t="+Date.now();

@@ -36,7 +36,7 @@
             <script type="text/javascript">
                 let urlData = new URL(window.location.href);
                 let name = urlData.searchParams.get("name");
-                let url = "https://www.rdvessentiel.be/r.html?"+encodeURIComponent(name).replaceAll("%20", "+");
+                let url = "https://www.rdvessentiel.be/r.html?"+encodeURIComponent(name).replace(/%20/g, "+");
                 const qrCode = new QRCodeStyling({
                     width: 300,
                     height: 300,
