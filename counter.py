@@ -11,6 +11,8 @@ def count():
     cur = conn.cursor()
     cur.execute("UPDATE count SET c=c+1")
     conn.commit()
+    cur.close()
+    cur = conn.cursor()
     c = cur.execute("SELECT c FROM count").fetchone()
     cur.close()
     return {'c': c}
