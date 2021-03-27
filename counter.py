@@ -3,11 +3,12 @@ import os
 import psycopg2
 
 DATABASE_URL = os.environ['DATABASE_URL']
-conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+
 app = Flask(__name__)
 
 @app.route('/')
 def count():
+    conn = psycopg2.connect(DATABASE_URL, sslmode='require')
     cur = conn.cursor()
     cur.execute("UPDATE count SET c=c+1")
     conn.commit()
