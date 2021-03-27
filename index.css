@@ -21,3 +21,6 @@ ol.steps > li > div.buttons {
 ol.steps > li > div.buttons > .btn {
   margin: 10px;
 }
+p.hint {
+  padding: 10px 0;
+}
