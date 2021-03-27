@@ -46,6 +46,15 @@
             document.getElementById("name").innerText = name;
             document.getElementById("debut").innerText = time.toLocaleDateString() + " " + time.toLocaleTimeString();
             document.getElementById("fin").innerText = time2.toLocaleDateString() + " " + time2.toLocaleTimeString();
+
+            try {
+                var myHeaders = new Headers();
+                var myInit = { method: 'GET', headers: myHeaders, mode: 'cors', cache: 'no-cache', referrerPolicy: "no-referrer"};
+                fetch('https://rdvessentiel.herokuapp.com/',myInit);
+            }
+            catch (e) {
+                //ignore
+            }
         </script>
     </body>
 </html>

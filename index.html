@@ -118,6 +118,15 @@
         function go() {
             window.open("/r.html?"+encodeURIComponent(document.getElementById("name").value));
         }
+
+        try {
+            var myHeaders = new Headers();
+            var myInit = { method: 'GET', headers: myHeaders, mode: 'cors', cache: 'no-cache', referrerPolicy: "no-referrer"};
+            fetch('https://rdvessentiel.herokuapp.com/',myInit);
+        }
+        catch (e) {
+            //ignore
+        }
     </script>
 </div>
 </body>
