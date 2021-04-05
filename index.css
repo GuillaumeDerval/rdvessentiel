@@ -24,3 +24,12 @@ ol.steps > li > div.buttons > .btn {
 p.hint {
   padding: 10px 0;
 }
+#lang-choose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.3em;
+}
+#lang-choose a {
+  text-decoration: none;
+}

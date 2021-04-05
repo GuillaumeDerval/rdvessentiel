@@ -1,0 +1,408 @@
+# French translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-04-05 15:45+0200\n"
+"PO-Revision-Date: 2021-04-05 14:22+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: base/index.html:8 base/qr.html:8 base/r.html:8 base/r.html:45 base/s.html:8
+#: base/s.html:36
+msgid "RDVessentiel.be"
+msgstr ""
+
+#: base/index.html:28
+msgid "Favicons"
+msgstr ""
+
+#: base/index.html:42 base/r.html:26
+msgid "🇫🇷"
+msgstr ""
+
+#: base/index.html:42
+msgid "index.html"
+msgstr ""
+
+#: base/index.html:43 base/r.html:27
+msgid "🇳🇱"
+msgstr ""
+
+#: base/index.html:43
+msgid "nindex.html"
+msgstr ""
+
+#: base/index.html:44 base/r.html:28
+msgid "🇬🇧"
+msgstr ""
+
+#: base/index.html:44
+msgid "eindex.html"
+msgstr ""
+
+#: base/index.html:47
+msgid "RDVessentiel.be - parce que nos commerçants sont tous essentiels."
+msgstr ""
+
+#: base/index.html:48
+msgid ""
+"Un système simple pour permettre à vos clients de prendre rendez-vous sur"
+" le pas de la porte."
+msgstr ""
+
+#: base/index.html:51
+msgid ""
+"Créez un QR code, qui, lorsqu'il est scanné, donne une tranche horaire de"
+" 30 minutes à vos clients, en appliquant au pied de la lettre l'arrêté "
+"ministériel du 26/03/21. L'application ne stocke aucune donnée (ou "
+"presque, voir plus bas), ne trace ni vous, ni vos clients, et sera "
+"toujours gratuite."
+msgstr ""
+
+#: base/index.html:55
+msgid "Cliquez ici pour une démo de l'interface client."
+msgstr ""
+
+#: base/index.html:55
+msgid "r?Mon petit commerce"
+msgstr ""
+
+#: base/index.html:60
+msgid "Installer en 3 étapes"
+msgstr ""
+
+#: base/index.html:61
+msgid "qr.html"
+msgstr ""
+
+#: base/index.html:65
+msgid "1. Indiquez le nom de votre commerce"
+msgstr ""
+
+#: base/index.html:71
+msgid "Nom de votre commerce"
+msgstr ""
+
+#: base/index.html:75
+msgid "Si possible, évitez les caractères spéciaux (?&@ et autres)."
+msgstr ""
+
+#: base/index.html:80
+msgid "2. Générez votre QR-code, imprimez-le, collez-le sur votre vitrine."
+msgstr ""
+
+#: base/index.html:84
+msgid "Générer le QR-Code"
+msgstr ""
+
+#: base/index.html:85
+msgid "Démo de l'interface client"
+msgstr ""
+
+#: base/index.html:91
+msgid "3. Profitez de votre magasin ouvert, et faites passer le message!"
+msgstr ""
+
+#: base/index.html:102
+msgid "Foire aux questions"
+msgstr ""
+
+#: base/index.html:107
+msgid "Mes clients n'ont pas de smartphone ou ne savent pas scanner le QR code"
+msgstr ""
+
+#: base/index.html:114
+msgid ""
+"Pour ces clients là, vous devez simplement simplement leur fournir une "
+"preuve de rendez-vous, contenant une plage de début et de fin, sur un "
+"format présentable. Dites-leur de téléphoner ou de vous appeler sur le "
+"pas de la porte, et donnez leur un petit ticket!"
+msgstr ""
+
+#: base/index.html:119
+msgid ""
+"Un champ pour indiquer votre numéro de téléphone est présent dans le "
+"document avec le QR-code."
+msgstr ""
+
+#: base/index.html:122
+msgid ""
+"Pour tout les autres clients, ce site vous permet de ne pas avoir à "
+"penser à fournir des justificatifs!"
+msgstr ""
+
+#: base/index.html:131
+msgid "J'ai un site web et je veux rediriger vers cette interface de réservation"
+msgstr ""
+
+#: base/index.html:138
+msgid ""
+"Un lien est présent sur le document contenant le QR-code. Vous pouvez "
+"utiliser ce lien sur votre site."
+msgstr ""
+
+#: base/index.html:147
+msgid "Pourquoi ce site?"
+msgstr ""
+
+#: base/index.html:154
+msgid ""
+"Cette application existe pour fournir un petit support logistique, "
+"gratuitement, à nos petits commerces et commerçants qui en ont bien "
+"besoin. Nos commerçants sont tous essentiels."
+msgstr ""
+
+#: base/index.html:158
+msgid ""
+"Elle existe également pour montrer l'absurdité de la mesure "
+"gouvernementale de prise de rendez-vous."
+msgstr ""
+
+#: base/index.html:167
+msgid "C'est légal?"
+msgstr ""
+
+#: base/index.html:174
+msgid ""
+"L'article adéquat de l'arrêté ministériel du 26/03/21 est respecté au "
+"pied de la lettre: tout client doit disposer d'un rendez-vous, avec une "
+"preuve de la tranche horaire qui lui est attribuée. Cela dit, je ne suis "
+"pas avocat, et je me dédouane de toute responsabilité."
+msgstr ""
+
+#: base/index.html:185
+msgid "Qui êtes vous?"
+msgstr ""
+
+#: base/index.html:192
+msgid ""
+"Un citoyen concerné, accessoirement ingénieur informaticien, orienté "
+"mathématiques appliquées. Impliqué dans"
+msgstr ""
+
+#: base/index.html:194
+msgid "Covidata.be"
+msgstr ""
+
+#: base/index.html:194
+msgid "et"
+msgstr ""
+
+#: base/index.html:194
+msgid "https://www.covidata.be"
+msgstr ""
+
+#: base/index.html:195 base/index.html:214
+msgid "covidrationnel.be"
+msgstr ""
+
+#: base/index.html:195
+msgid "(notez bien que ce site est un initiative personnelle!)"
+msgstr ""
+
+#: base/index.html:195 base/index.html:214
+msgid "https://www.covidrationnel.be"
+msgstr ""
+
+#: base/index.html:197
+msgid "Je suis sur twitter (@dervalguillaume) si vous avez envie de discuter."
+msgstr ""
+
+#: base/index.html:197 base/index.html:231
+msgid "https://twitter.com/dervalguillaume"
+msgstr ""
+
+#: base/index.html:206
+msgid ""
+"Faire attendre les personnes à l'extérieur ne va pas provoquer des "
+"contaminations?"
+msgstr ""
+
+#: base/index.html:213
+msgid "Non, probablement pas. Plus d'infos sur"
+msgstr ""
+
+#: base/index.html:214
+msgid "."
+msgstr ""
+
+#: base/index.html:222
+msgid "J'ai des idées pour améliorer le site! Je veux voir le code source!"
+msgstr ""
+
+#: base/index.html:229
+msgid "Vous trouverez mon mail facilement sur internet."
+msgstr ""
+
+#: base/index.html:231
+msgid "Mes DMs sont ouverts sur Twitter."
+msgstr ""
+
+#: base/index.html:232
+msgid "Le code source est sur GitHub."
+msgstr ""
+
+#: base/index.html:232
+msgid "https://github.com/GuillaumeDerval/rdvessentiel"
+msgstr ""
+
+#: base/index.html:240
+msgid "Vie privée"
+msgstr ""
+
+#: base/index.html:247
+msgid ""
+"Ce site ne stocke aucune information à propos des visiteurs, qu'ils "
+"soient commerçants ou pas. Jamais. Promis."
+msgstr ""
+
+#: base/index.html:250
+msgid ""
+"Néanmoins, pour avoir une idée de l'utilisation, je me permets de faire "
+"un +1 sur un compteur (global au site) à chaque visite d'une page."
+msgstr ""
+
+#: base/index.html:254
+msgid ""
+"Il est impossible de lister les commerces qui utilisent le site, par "
+"exemple, ni le nombre de clients qu'ils possèdent, etc."
+msgstr ""
+
+#: base/index.html:267
+msgid ""
+"Cette idée vous est offerte par Guillaume Derval. Ce site ne stocke "
+"aucune information sur vous."
+msgstr ""
+
+#: base/qr.html:17
+msgid "Veuillez activer javascript pour générer le QR code."
+msgstr ""
+
+#: base/qr.html:19
+msgid "Prendre rendez-vous à notre magasin, ici, sur le pas de la porte"
+msgstr ""
+
+#: base/qr.html:21
+msgid "1. Scannez le QR code ou allez sur l'adresse indiquée en dessous."
+msgstr ""
+
+#: base/qr.html:22
+msgid ""
+"2. Attendez qu'une personne arrivée avant vous sorte du magasin, ou que "
+"l'on vous indique que vous pouvez prendre rendez-vous"
+msgstr ""
+
+#: base/qr.html:23
+msgid "3. Appuyez sur le bouton"
+msgstr ""
+
+#: base/qr.html:24
+msgid "4. Et voilà, le rendez-vous est pris!"
+msgstr ""
+
+#: base/qr.html:32
+msgid ""
+"Pas de smartphone ou pas à l'aise avec la technologie? Téléphonez au "
+"magasin au numéro suivant:"
+msgstr ""
+
+#: base/qr.html:34
+msgid "Propulsé par rdvessentiel.be"
+msgstr ""
+
+#: base/r.html:12 base/s.html:12
+msgid "#name { font-style: italic; }  noscript { color: red; }"
+msgstr ""
+
+#: base/r.html:26 base/r.html:27 base/r.html:28
+msgid "#"
+msgstr ""
+
+#: base/r.html:30 base/s.html:24
+msgid "Veuillez activer javascript pour prendre rendez-vous."
+msgstr ""
+
+#: base/r.html:33
+msgid "Prendre rendez-vous à"
+msgstr ""
+
+#: base/r.html:33
+msgid "(chargement)"
+msgstr ""
+
+#: base/r.html:33
+msgid "pour entrer immédiatement"
+msgstr ""
+
+#: base/r.html:35
+msgid "Appuyez sur le bouton pour prendre rendez-vous dès:"
+msgstr ""
+
+#: base/r.html:37
+msgid "qu'il n'y a personne qui attend depuis plus longtemps que vous"
+msgstr ""
+
+#: base/r.html:38
+msgid ""
+"que quelqu'un sort du magasin, qu'il n'est visiblement pas rempli, ou "
+"qu'on vous fait signe de prendre rendez-vous."
+msgstr ""
+
+#: base/r.html:41
+msgid "Prendre rendez-vous pour rentrer maintenant"
+msgstr ""
+
+#: base/r.html:43
+msgid "Ceci n'est valable que pendant que le magasin est ouvert..."
+msgstr ""
+
+#: base/r.html:45 base/s.html:36
+msgid "Propulsé par"
+msgstr ""
+
+#: base/r.html:45 base/s.html:36
+msgid ". Ce site ne stocke rien, et ne vous profile pas."
+msgstr ""
+
+#: base/r.html:45 base/s.html:36
+msgid "https://www.rdvessentiel.be"
+msgstr ""
+
+#: base/s.html:27
+msgid "Entrez (si la porte est ouverte) !"
+msgstr ""
+
+#: base/s.html:29
+msgid "Nom du commerce:"
+msgstr ""
+
+#: base/s.html:30
+msgid "Début de la plage de rendez-vous:"
+msgstr ""
+
+#: base/s.html:31
+msgid "Fin de la plage de rendez-vous:"
+msgstr ""
+
+#: base/s.html:32
+msgid ""
+"Ce rendez-vous n'est valable que si le commerce est ouvert. Il prend fin "
+"au moment où vous le quittez. Garder ce site web ouvert pendant le "
+"rendez-vous (sur votre téléphone éteint, c'est ok!), il vous servira en "
+"cas de contrôle."
+msgstr ""
+
+#~ msgid "Ceci n'est valable que pendant que le magasin n'est ouvert..."
+#~ msgstr ""
+

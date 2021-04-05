@@ -1,0 +1,448 @@
+# Dutch translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-04-05 15:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: base/index.html:8 base/qr.html:8 base/r.html:8 base/r.html:45 base/s.html:8
+#: base/s.html:36
+msgid "RDVessentiel.be"
+msgstr "https://www.rdvessentiel.be"
+
+#: base/index.html:28
+msgid "Favicons"
+msgstr ""
+
+#: base/index.html:42 base/r.html:26
+msgid "🇫🇷"
+msgstr ""
+
+#: base/index.html:42
+msgid "index.html"
+msgstr ""
+
+#: base/index.html:43 base/r.html:27
+msgid "🇳🇱"
+msgstr ""
+
+#: base/index.html:43
+msgid "nindex.html"
+msgstr ""
+
+#: base/index.html:44 base/r.html:28
+msgid "🇬🇧"
+msgstr ""
+
+#: base/index.html:44
+msgid "eindex.html"
+msgstr ""
+
+#: base/index.html:47
+msgid "RDVessentiel.be - parce que nos commerçants sont tous essentiels."
+msgstr "RDVessentiel.be - omdat onze handelaars allemaal essentieel zijn."
+
+#: base/index.html:48
+msgid ""
+"Un système simple pour permettre à vos clients de prendre rendez-vous sur"
+" le pas de la porte."
+msgstr ""
+"Een eenvoudig systeem zodat uw klanten een afspraak kunnen boekenaan uw "
+"voordeur."
+
+#: base/index.html:51
+msgid ""
+"Créez un QR code, qui, lorsqu'il est scanné, donne une tranche horaire de"
+" 30 minutes à vos clients, en appliquant au pied de la lettre l'arrêté "
+"ministériel du 26/03/21. L'application ne stocke aucune donnée (ou "
+"presque, voir plus bas), ne trace ni vous, ni vos clients, et sera "
+"toujours gratuite."
+msgstr ""
+"Creëer een QR code, die, eens gescand, uw klanten een tijdslot geeftvan "
+"30 minuten, en aldus het MB van 26/03/21 letterlijk naleeft. Deze app "
+"stockeert geen data (of bijna, zie onderaan)en laat geen sporen van u of "
+"uw klanten achter en is steeds gratis"
+
+#: base/index.html:55
+msgid "Cliquez ici pour une démo de l'interface client."
+msgstr "Klik hier voor een demo van de klantinterface."
+
+#: base/index.html:55
+msgid "r?Mon petit commerce"
+msgstr "r?Mijn klein bedrijf"
+
+#: base/index.html:60
+msgid "Installer en 3 étapes"
+msgstr "In 3 stappen installeren "
+
+#: base/index.html:61
+msgid "qr.html"
+msgstr "nqr.html"
+
+#: base/index.html:65
+msgid "1. Indiquez le nom de votre commerce"
+msgstr "1. Geef de naam van uw zaak"
+
+#: base/index.html:71
+msgid "Nom de votre commerce"
+msgstr "Naam van uw zaak"
+
+#: base/index.html:75
+msgid "Si possible, évitez les caractères spéciaux (?&@ et autres)."
+msgstr "Vermijd, indien mogelijk, speciale karakters (?&@ en andere)."
+
+#: base/index.html:80
+msgid "2. Générez votre QR-code, imprimez-le, collez-le sur votre vitrine."
+msgstr "2. Genereer uw QR-code, print hem, kleef hem op uw vitrine"
+
+#: base/index.html:84
+msgid "Générer le QR-Code"
+msgstr "Genereer de QR-code"
+
+#: base/index.html:85
+msgid "Démo de l'interface client"
+msgstr "Demo van de klantinterface"
+
+#: base/index.html:91
+msgid "3. Profitez de votre magasin ouvert, et faites passer le message!"
+msgstr "3. Geniet van uw open zaak en verspreid de boodschap!"
+
+#: base/index.html:102
+msgid "Foire aux questions"
+msgstr "Frequent asked questions"
+
+#: base/index.html:107
+msgid "Mes clients n'ont pas de smartphone ou ne savent pas scanner le QR code"
+msgstr "Mijn klanten hebben geen smartphone of kunnen geen QR-code scannen"
+
+#: base/index.html:114
+msgid ""
+"Pour ces clients là, vous devez simplement simplement leur fournir une "
+"preuve de rendez-vous, contenant une plage de début et de fin, sur un "
+"format présentable. Dites-leur de téléphoner ou de vous appeler sur le "
+"pas de la porte, et donnez leur un petit ticket!"
+msgstr ""
+"Voor deze klanten dien je hen enkel een bewijs te gevenvan hun afspraak, "
+"met begin- en einduur.Zeg hen u te bellen of te roepen aan uw deur, en "
+"geef hen een ticket!"
+
+#: base/index.html:119
+msgid ""
+"Un champ pour indiquer votre numéro de téléphone est présent dans le "
+"document avec le QR-code."
+msgstr ""
+"Een veld om uw telefoonnummer mee te delen, is aanwezig inhet document "
+"met de QR-code."
+
+#: base/index.html:122
+msgid ""
+"Pour tout les autres clients, ce site vous permet de ne pas avoir à "
+"penser à fournir des justificatifs!"
+msgstr ""
+"Voor alle andere klanten moet je dankzij deze app niet aan bewijsstukken "
+"denken"
+
+#: base/index.html:131
+msgid "J'ai un site web et je veux rediriger vers cette interface de réservation"
+msgstr "Ik heb een website en wil er verwijzen naar deze afspraakapp"
+
+#: base/index.html:138
+msgid ""
+"Un lien est présent sur le document contenant le QR-code. Vous pouvez "
+"utiliser ce lien sur votre site."
+msgstr ""
+"U kan een link vinden op het document met de QR-code. Gebruik hem op uw "
+"website"
+
+#: base/index.html:147
+msgid "Pourquoi ce site?"
+msgstr "Vanwaar deze website?"
+
+#: base/index.html:154
+msgid ""
+"Cette application existe pour fournir un petit support logistique, "
+"gratuitement, à nos petits commerces et commerçants qui en ont bien "
+"besoin. Nos commerçants sont tous essentiels."
+msgstr ""
+"Deze app heeft tot doel onze handelaars een gratis logistiek duwtje in de"
+" rugte geven.  Onze handelaars zijn allen essentieel"
+
+#: base/index.html:158
+msgid ""
+"Elle existe également pour montrer l'absurdité de la mesure "
+"gouvernementale de prise de rendez-vous."
+msgstr ""
+"Ze dient ook de absurditeit van de overheidsmaatregelen op vlak van "
+"afsprakenaan te tonen "
+
+#: base/index.html:167
+msgid "C'est légal?"
+msgstr "Is dit wettelijk?"
+
+#: base/index.html:174
+msgid ""
+"L'article adéquat de l'arrêté ministériel du 26/03/21 est respecté au "
+"pied de la lettre: tout client doit disposer d'un rendez-vous, avec une "
+"preuve de la tranche horaire qui lui est attribuée. Cela dit, je ne suis "
+"pas avocat, et je me dédouane de toute responsabilité."
+msgstr ""
+"Het artikel van het Ministerieel Besluit dd 26/03/21 wordt op de letter "
+"nageleefd: iedere klant met een afspraak, met het bewijs van een "
+"tijdslot. Ik ben echter geen advokaat en aanvaardt geen aansprakelijkheid"
+" "
+
+#: base/index.html:185
+msgid "Qui êtes vous?"
+msgstr "Wie bent u?"
+
+#: base/index.html:192
+msgid ""
+"Un citoyen concerné, accessoirement ingénieur informaticien, orienté "
+"mathématiques appliquées. Impliqué dans"
+msgstr ""
+"Een betrokken burger, ook ingenieur informatica, met specialisatie "
+"toegepaste wiskunde. Betrokken bij"
+
+#: base/index.html:194
+msgid "Covidata.be"
+msgstr "Covidata.be"
+
+#: base/index.html:194
+msgid "et"
+msgstr "en"
+
+#: base/index.html:194
+msgid "https://www.covidata.be"
+msgstr "https://www.covidata.be"
+
+#: base/index.html:195 base/index.html:214
+msgid "covidrationnel.be"
+msgstr "covidrationnel.be"
+
+#: base/index.html:195
+msgid "(notez bien que ce site est un initiative personnelle!)"
+msgstr "(let wel dat deze website een persoonlijk initiatief is!)"
+
+#: base/index.html:195 base/index.html:214
+msgid "https://www.covidrationnel.be"
+msgstr "https://www.covidrationnel.be"
+
+#: base/index.html:197
+msgid "Je suis sur twitter (@dervalguillaume) si vous avez envie de discuter."
+msgstr "Ik ben op twitter (@dervalguillaume) indien u zin heeft in een babbel."
+
+#: base/index.html:197 base/index.html:231
+msgid "https://twitter.com/dervalguillaume"
+msgstr "https://twitter.com/dervalguillaume"
+
+#: base/index.html:206
+msgid ""
+"Faire attendre les personnes à l'extérieur ne va pas provoquer des "
+"contaminations?"
+msgstr "Mensen buiten laten wachten, levert dat geen extra besmettingen op?"
+
+#: base/index.html:213
+msgid "Non, probablement pas. Plus d'infos sur"
+msgstr "Neen, waarschjnlijk niet. Meer info op"
+
+#: base/index.html:214
+msgid "."
+msgstr "."
+
+#: base/index.html:222
+msgid "J'ai des idées pour améliorer le site! Je veux voir le code source!"
+msgstr "Ik heb ideeën om deze website te verbeteren! ik wil de broncode zien!"
+
+#: base/index.html:229
+msgid "Vous trouverez mon mail facilement sur internet."
+msgstr "U kan mijn mail makkelijk vinden op internet."
+
+#: base/index.html:231
+msgid "Mes DMs sont ouverts sur Twitter."
+msgstr "Mijn DMs zijn open op Twitter"
+
+#: base/index.html:232
+msgid "Le code source est sur GitHub."
+msgstr "De broncode is op GitHub."
+
+#: base/index.html:232
+msgid "https://github.com/GuillaumeDerval/rdvessentiel"
+msgstr "https://github.com/GuillaumeDerval/rdvessentiel"
+
+#: base/index.html:240
+msgid "Vie privée"
+msgstr "Privacy"
+
+#: base/index.html:247
+msgid ""
+"Ce site ne stocke aucune information à propos des visiteurs, qu'ils "
+"soient commerçants ou pas. Jamais. Promis."
+msgstr ""
+"Deze website stockeert nooit informatie van de bezoekers zij het "
+"handelaars of niet. Nooit.  Beloofd."
+
+#: base/index.html:250
+msgid ""
+"Néanmoins, pour avoir une idée de l'utilisation, je me permets de faire "
+"un +1 sur un compteur (global au site) à chaque visite d'une page."
+msgstr ""
+"Wel durf ik de teller in te schakelen om te weten hoeveel bezoekers een "
+"pagina krijgt."
+
+#: base/index.html:254
+msgid ""
+"Il est impossible de lister les commerces qui utilisent le site, par "
+"exemple, ni le nombre de clients qu'ils possèdent, etc."
+msgstr ""
+"Het is bvb onmogelijk om alle handelszaken op te lijsten die deze website"
+" gebruikennoch het aantal klanten die ze hebben, enzo."
+
+#: base/index.html:267
+msgid ""
+"Cette idée vous est offerte par Guillaume Derval. Ce site ne stocke "
+"aucune information sur vous."
+msgstr ""
+"Dit idee wordt geschonken door Guillaume Derval. Deze website stockeert "
+"geen gegevens "
+
+#: base/qr.html:17
+msgid "Veuillez activer javascript pour générer le QR code."
+msgstr "Gelieve javascript te activeren om de QR-code te genereren."
+
+#: base/qr.html:19
+msgid "Prendre rendez-vous à notre magasin, ici, sur le pas de la porte"
+msgstr "Een afspraak vastleggen in onze zaak, hier, aan de voordeur"
+
+#: base/qr.html:21
+msgid "1. Scannez le QR code ou allez sur l'adresse indiquée en dessous."
+msgstr "1. Scan de QR-code of ga naar het adres dat hieronder vermeld is."
+
+#: base/qr.html:22
+msgid ""
+"2. Attendez qu'une personne arrivée avant vous sorte du magasin, ou que "
+"l'on vous indique que vous pouvez prendre rendez-vous"
+msgstr ""
+"2. Wacht totdat de persoon die zich nog in de winkel bevindt, deze "
+"verlaat, ofdat men u duidelijk maakt dat u een afspraak mag nemen"
+
+#: base/qr.html:23
+msgid "3. Appuyez sur le bouton"
+msgstr "3. Druk op de knop"
+
+#: base/qr.html:24
+msgid "4. Et voilà, le rendez-vous est pris!"
+msgstr "4. Ziezo, u hebt een afspraak "
+
+#: base/qr.html:32
+msgid ""
+"Pas de smartphone ou pas à l'aise avec la technologie? Téléphonez au "
+"magasin au numéro suivant:"
+msgstr ""
+"U hebt geen smartphone of houdt niet van technologie? Bel de zaak op "
+"nummer:"
+
+#: base/qr.html:34
+msgid "Propulsé par rdvessentiel.be"
+msgstr "Powered by rdvessentiel.be"
+
+#: base/r.html:12 base/s.html:12
+msgid "#name { font-style: italic; }  noscript { color: red; }"
+msgstr "#name { font-style: italic; }  noscript { color: red; }"
+
+#: base/r.html:26 base/r.html:27 base/r.html:28
+msgid "#"
+msgstr "#"
+
+#: base/r.html:30 base/s.html:24
+msgid "Veuillez activer javascript pour prendre rendez-vous."
+msgstr "Gelieve javascript te activeren om een afspraak te boeken"
+
+#: base/r.html:33
+msgid "Prendre rendez-vous à"
+msgstr "Een afspraak boeken om"
+
+#: base/r.html:33
+msgid "(chargement)"
+msgstr "(lading)"
+
+#: base/r.html:33
+msgid "pour entrer immédiatement"
+msgstr "om onmiddelijk binnen te gaan"
+
+#: base/r.html:35
+msgid "Appuyez sur le bouton pour prendre rendez-vous dès:"
+msgstr "Druk op de knop om een afpsraak te boeken vanaf:"
+
+#: base/r.html:37
+msgid "qu'il n'y a personne qui attend depuis plus longtemps que vous"
+msgstr "dat er niemand langer wacht dan u"
+
+#: base/r.html:38
+msgid ""
+"que quelqu'un sort du magasin, qu'il n'est visiblement pas rempli, ou "
+"qu'on vous fait signe de prendre rendez-vous."
+msgstr ""
+"dat iemand uit de zaak komt, dat hij niet vol is, of dat men u teken doet"
+" dat u een afspraak mag boeken."
+
+#: base/r.html:41
+msgid "Prendre rendez-vous pour rentrer maintenant"
+msgstr "Een afspraak boeken om onmiddelijk binnen te gaan"
+
+#: base/r.html:43
+msgid "Ceci n'est valable que pendant que le magasin est ouvert..."
+msgstr "Dit is slechts geldig zolang de zaak open is... "
+
+#: base/r.html:45 base/s.html:36
+msgid "Propulsé par"
+msgstr "Powered by"
+
+#: base/r.html:45 base/s.html:36
+msgid ". Ce site ne stocke rien, et ne vous profile pas."
+msgstr ". Deze website stockeert niets en profileert u niet."
+
+#: base/r.html:45 base/s.html:36
+msgid "https://www.rdvessentiel.be"
+msgstr "https://www.rdvessentiel.be"
+
+#: base/s.html:27
+msgid "Entrez (si la porte est ouverte) !"
+msgstr "Kom binnen (indien de deur open is) !"
+
+#: base/s.html:29
+msgid "Nom du commerce:"
+msgstr "Naam van de zaak:"
+
+#: base/s.html:30
+msgid "Début de la plage de rendez-vous:"
+msgstr "Startuur van de afspraak:"
+
+#: base/s.html:31
+msgid "Fin de la plage de rendez-vous:"
+msgstr "Einde van de afspraak:"
+
+#: base/s.html:32
+msgid ""
+"Ce rendez-vous n'est valable que si le commerce est ouvert. Il prend fin "
+"au moment où vous le quittez. Garder ce site web ouvert pendant le "
+"rendez-vous (sur votre téléphone éteint, c'est ok!), il vous servira en "
+"cas de contrôle."
+msgstr ""
+"Deze afspraak is slechts geldig indien de zaak open is. Zodra u de zaak "
+"verlaatis deze beëindigd. Houd deze website open gedurende de afspraak (op"
+" uw gesloten smartphone, is ok!), het zal u helpen bij een eventuele "
+"controle"
+
