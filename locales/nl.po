@@ -60,7 +60,7 @@ msgid ""
 "Un système simple pour permettre à vos clients de prendre rendez-vous sur"
 " le pas de la porte."
 msgstr ""
-"Een eenvoudig systeem zodat uw klanten een afspraak kunnen boekenaan uw "
+"Een eenvoudig systeem zodat uw klanten een afspraak kunnen boeken aan uw "
 "voordeur."
 
 #: base/index.html:51
@@ -71,9 +71,9 @@ msgid ""
 "presque, voir plus bas), ne trace ni vous, ni vos clients, et sera "
 "toujours gratuite."
 msgstr ""
-"Creëer een QR code, die, eens gescand, uw klanten een tijdslot geeftvan "
+"Creëer een QR code, die, eens gescand, uw klanten een tijdslot geeft van "
 "30 minuten, en aldus het MB van 26/03/21 letterlijk naleeft. Deze app "
-"stockeert geen data (of bijna, zie onderaan)en laat geen sporen van u of "
+"stockeert geen data (of bijna, zie onderaan) en laat geen sporen van u of "
 "uw klanten achter en is steeds gratis"
 
 #: base/index.html:55
@@ -82,7 +82,7 @@ msgstr "Klik hier voor een demo van de klantinterface."
 
 #: base/index.html:55
 msgid "r?Mon petit commerce"
-msgstr "r?Mijn klein bedrijf"
+msgstr "r?Mijn zaak"
 
 #: base/index.html:60
 msgid "Installer en 3 étapes"
@@ -135,7 +135,7 @@ msgid ""
 "format présentable. Dites-leur de téléphoner ou de vous appeler sur le "
 "pas de la porte, et donnez leur un petit ticket!"
 msgstr ""
-"Voor deze klanten dien je hen enkel een bewijs te gevenvan hun afspraak, "
+"Aan deze klanten dien je enkel een bewijs te geven van hun afspraak, "
 "met begin- en einduur.Zeg hen u te bellen of te roepen aan uw deur, en "
 "geef hen een ticket!"
 
@@ -336,7 +336,7 @@ msgid ""
 "l'on vous indique que vous pouvez prendre rendez-vous"
 msgstr ""
 "2. Wacht totdat de persoon die zich nog in de winkel bevindt, deze "
-"verlaat, ofdat men u duidelijk maakt dat u een afspraak mag nemen"
+"verlaat, of dat men u duidelijk maakt dat u een afspraak mag nemen"
 
 #: base/qr.html:23
 msgid "3. Appuyez sur le bouton"
@@ -372,7 +372,7 @@ msgstr "Gelieve javascript te activeren om een afspraak te boeken"
 
 #: base/r.html:33
 msgid "Prendre rendez-vous à"
-msgstr "Een afspraak boeken om"
+msgstr "Een afspraak boeken bij"
 
 #: base/r.html:33
 msgid "(chargement)"
@@ -380,27 +380,27 @@ msgstr "(lading)"
 
 #: base/r.html:33
 msgid "pour entrer immédiatement"
-msgstr "om onmiddelijk binnen te gaan"
+msgstr "om onmiddellijk binnen te gaan"
 
 #: base/r.html:35
 msgid "Appuyez sur le bouton pour prendre rendez-vous dès:"
-msgstr "Druk op de knop om een afpsraak te boeken vanaf:"
+msgstr "Druk op de knop om een afspraak te boeken wanneer:"
 
 #: base/r.html:37
 msgid "qu'il n'y a personne qui attend depuis plus longtemps que vous"
-msgstr "dat er niemand langer wacht dan u"
+msgstr "niemand langer wacht dan u"
 
 #: base/r.html:38
 msgid ""
 "que quelqu'un sort du magasin, qu'il n'est visiblement pas rempli, ou "
 "qu'on vous fait signe de prendre rendez-vous."
 msgstr ""
-"dat iemand uit de zaak komt, dat hij niet vol is, of dat men u teken doet"
-" dat u een afspraak mag boeken."
+"iemand uit de zaak komt, hij leeg is, of"
+" men u een afspraak mag boeken."
 
 #: base/r.html:41
 msgid "Prendre rendez-vous pour rentrer maintenant"
-msgstr "Een afspraak boeken om onmiddelijk binnen te gaan"
+msgstr "Een afspraak boeken om onmiddellijk binnen te gaan"
 
 #: base/r.html:43
 msgid "Ceci n'est valable que pendant que le magasin est ouvert..."
@@ -442,7 +442,7 @@ msgid ""
 "cas de contrôle."
 msgstr ""
 "Deze afspraak is slechts geldig indien de zaak open is. Zodra u de zaak "
-"verlaatis deze beëindigd. Houd deze website open gedurende de afspraak (op"
+"verlaat is deze beëindigd. Houd deze website open gedurende de afspraak (op"
 " uw gesloten smartphone, is ok!), het zal u helpen bij een eventuele "
 "controle"
 
